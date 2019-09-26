@@ -4,7 +4,7 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "api-test": "newman run tests/postman_test_collection.json --insecure"
+    "api-test": "newman run tests/postman_test_collection.json --insecure --reporters junit --reporter-junit-export outputfile.xml"
   },
   "author": "",
   "license": "ISC"
